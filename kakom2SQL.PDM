@@ -1,0 +1,115 @@
+[Root]
+Most Recent Package=Kakom2SQL
+
+
+[Package|Kakom2SQL|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\SRC\HATSCHER\SQLServer\Kakom2SQL\Paket
+
+[Package|Kakom2SQL|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Kakom2SQL|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Kakom2SQL|Files Found]
+
+[Package|Kakom2SQL|Files Released]
+
+[Package|Kakom2SQL|Missing Dependency Information]
+C:\Programme\Gemeinsame Dateien\SYSTEM\ADO\msado25.tlb=
+C:\Programme\Microsoft Visual Studio .NET\Common7\Controls\msbind.dll=
+C:\WINDOWS\system32\MSStdFmt.dll=
+
+[Package|Kakom2SQL|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\msstdfmt.dll=
+
+[Package|Kakom2SQL|Files Added]
+C:\SRC\HATSCHER\SQLServer\Kakom2SQL\KakomSQL.ini=
+
+[Package|Kakom2SQL|Files Removed]
+
+[Package|Kakom2SQL|Files In Project]
+C:\SRC\HATSCHER\SQLServer\Kakom2SQL\Kakom2SQL.exe=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Programme\Gemeinsame Dateien\SYSTEM\ADO\msado25.tlb=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\WINDOWS\system32\VB6DE.DLL=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSStdFmt.dll=Yes
+C:\SRC\HATSCHER\SQLServer\Kakom2SQL\KakomSQL.ini=Yes
+
+[Package|Kakom2SQL|Configure Registry Files]
+Applicable=No
+
+[Package|Kakom2SQL|Configure Remote Servers]
+Applicable=No
+
+[Package|Kakom2SQL|Install Locations]
+C:\SRC\HATSCHER\SQLServer\Kakom2SQL\Kakom2SQL.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6DE.DLL=$(WinSysPath)
+C:\Programme\Gemeinsame Dateien\SYSTEM\ADO\msado25.tlb=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\msstdfmt.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\STDFTDE.DLL=$(WinSysPath)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6DE.DLL=$(WinSysPath)
+C:\Programme\Microsoft Visual Studio .NET\Common7\Controls\msbind.dll=$(WinSysPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSStdFmt.dll=$(WinSysPath)
+C:\SRC\HATSCHER\SQLServer\Kakom2SQL\KakomSQL.ini=$(AppPath)
+
+[Package|Kakom2SQL|Configure Shared Files]
+Applicable=Yes
+C:\SRC\HATSCHER\SQLServer\Kakom2SQL\Kakom2SQL.exe=No
+C:\SRC\HATSCHER\SQLServer\Kakom2SQL\KakomSQL.ini=No
+
+[Package|Kakom2SQL|Distribution]
+Type=single
+Size=
+Title=Kakom2SQL
+
+[Package|Kakom2SQL|Package]
+PackageFolder=C:\SRC\HATSCHER\SQLServer\Kakom2SQL\Paket
+ProjectFolder=C:\SRC\HATSCHER\SQLServer\Kakom2SQL
+ServerSideCab=
+File1=C:\SRC\HATSCHER\SQLServer\Kakom2SQL\Paket\setup.exe
+File2=C:\SRC\HATSCHER\SQLServer\Kakom2SQL\Paket\Setup.Lst
+File3=C:\SRC\HATSCHER\SQLServer\Kakom2SQL\Paket\Kakom2SQL.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Kakom2SQL|IconGroups]
+Group0=Kakom2SQL
+PrivateGroup0=Falsch
+Parent0=$(Programs)
+
+[Package|Kakom2SQL|Kakom2SQL]
+Icon1=Kakom2SQL.exe
+Title1=Kakom2SQL
+StartIn1=$(AppPath)
+Key1=Icon1
